@@ -1,0 +1,74 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Terceiro Dia</title>
+
+    </head>
+    <body>
+        <div> <!--teste links-->
+            <h1></h1>
+            <p>
+                <a href="paginas/pag01.html">GO Pag01</a>
+                <a href="paginas/indexCssZenGarden.html">GO being ZEN</a>
+            </p>
+        </div>
+
+        <div><!-- TABELAS EM HTML-->
+            <table>
+                <tr> <td colspan="2">Lista de cidades e regiões</td></tr>  <!-- TR = Linha; TD = Coluna  -->
+                <tr><td rowspan="4">ABC</td><td>São Bernardo do Campo</td></tr>
+                <tr><td>Santo André</td></tr>
+                <tr><td>São Caetano</td></tr>
+                <tr><td>Diadema</td></tr>
+
+
+                <tr><td rowspan="3">Baixada Santista</td><td>Praia Grande</td></tr>
+                <tr><td>São Vicente</td></tr>
+                <tr><td>Santos</td></tr>
+            </table>
+        </div>
+
+        <div class="div01"><!--  FORMULÁRIOS EM HTML-->
+            Formulário: <br>
+            <form>
+                <fieldset>
+                Nome &nbsp;
+                <input type="text" maxlength="15" placeholder="nome" menu-close>    <br><br>
+                Senha &nbsp;
+                <input type="password" maxlength="6" placeholder="senha">   <br><br>
+                Idade &nbsp;
+                <input type="number" min=10 max="100" placeholder="idade">   <br>
+                Já cadastrado? &nbsp; <input type="checkbox">   <br><br>
+                Selecione um carro  <br><br>
+                <input type="checkbox" checked>Fiesta   <br>
+                <input type="checkbox" disabled>Gol <br>
+                <input type="checkbox">Palio  &nbsp;&nbsp;&nbsp; <input type="checkbox">Corsa   <br><br>
+                Selecione o sexo
+                <input type="radio" name="sexo" checked>Masculino  &nbsp;&nbsp;&nbsp; <input type="radio" name="sexo">Feminino
+                &nbsp;&nbsp;&nbsp; <input type="radio" name="sexo">Apenas para ter mais um  <br><br>
+
+                Color: <input type="color">    <br><br>
+                File: <input type="file" name="" id="">   <br><br>
+                Numbers: <input type="number" max="1000" min="-200" name="" id="" placeholder="numbers"> &nbsp; 
+                <input type="number" placeholder="numbers" max="1000" menu-close name="" id="">     <br><br>
+
+                Lista de cidades &nbsp;
+                <input list="cidades" id="n_cid" itemtype="n">
+                    <datalist id="cidades">
+                        <option value="São Caetano"></option>
+                        <option value="São Paulo"></option>
+                        <option value="São Bernardo"></option>
+                        <option value="São Vicente"></option>
+                    </datalist>
+                <br><br>
+                <textarea name="" id="" cols="30" rows="10" maxlength="100"></textarea> <br>
+                <textarea name="" id="" cols="10" rows="5" maxlength="150" placeholder="Máximo de 150 caracteres"></textarea>
+                <input type="reset" value="Resetar Form">
+                <input type="button" class="btn" value="Validar">
+            </form>
+            </fieldset>
+
+        </div>
+    </body>
+</html>
