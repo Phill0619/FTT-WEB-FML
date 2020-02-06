@@ -11,13 +11,13 @@ header
 }
 
 h1 
-{color: cadetblue;}
+{color: rgb(67, 124, 126);}
 
 h2, h3 
-{color: darkcyan;}
+{color: rgb(27, 247, 247);}
 
 p 
-{background-color: aqua;}
+{background-color: rgb(11, 255, 32);}
 
 .titulo1 
 { background-color:darkorange;} 
